@@ -1,0 +1,30 @@
+.product-detail-container {
+  padding: 100px;
+  font-size: 80px!important;
+
+}
+
+.product-detail-details {
+  margin-top: 20px;
+}
+
+.product-detail-image-container {
+  text-align: center;
+}
+
+.product-detail-image {
+  width: 100%;
+  height: auto;
+}
+
+.product-detail-info {
+  padding: 20px;
+}
+
+.product-detail-price-offer {
+  text-decoration: line-through;
+}
+
+.product-detail-price-strike {
+  color: red;
+}

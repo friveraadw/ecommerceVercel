@@ -1,0 +1,8 @@
+.custom-form {
+  min-width: 50vw;
+  margin: 3rem;
+  padding: 200px;
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
