@@ -9,7 +9,7 @@ const { getUsuarioPorEmail } = require('./modules/consultas_usuarios');
 const pool = require('./modules/conexion');
 
 const app = express();
-app.listen(3000, () => console.log('API Server ON!'));
+app.listen(process.env.PORT, () => console.log('API Server ON!'));
 
 app.use(cors());
 app.use(express.json());
